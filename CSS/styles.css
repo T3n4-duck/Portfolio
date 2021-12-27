@@ -1,50 +1,67 @@
-html{
+html {
     box-sizing: border-box;
 }
-*,*::after,*::before{
+
+*,
+*::after,
+*::before {
     box-sizing: inherit;
 }
-a{
+
+a {
     text-decoration: none;
 }
-:root{
+
+:root {
     /*Paleta de colores que seleccione para la página*/
-    --pld:rgb(2,0,36);
-    --plm:rgba(64,64,161,1) 63%;
+    --pld: rgb(2, 0, 36);
+    --plm: rgba(64, 64, 161, 1) 63%;
     /*Colores para fuentes*/
-    --fc2:#fefbd8;
-    --fc: #fefbd7 ;
+    --fc2: #fefbd8;
+    --fc: #fefbd7;
 }
 
-.bodycolor{
+.bodycolor {
     background-attachment: fixed;
     background-image: url("../img/sky.jpg");
     background-size: cover;
 }
-.navstyle{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(64,64,161,1) 63%, rgba(2,0,36,1) 100%);
+
+#overlay {
+    background-color: rgba(0, 0, 0, 0.3);
 }
-.navstyle a{
+
+.navstyle {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(64, 64, 161, 1) 63%, rgba(2, 0, 36, 1) 100%);
+}
+
+.navstyle a {
     color: var(--fc2);
 }
-.navstyle a:hover{
+
+.navstyle a:hover {
     color: var(--pld);
 }
-.tle{
+
+.tle {
     text-align: center;
     color: var(--fc2);
 }
-.tle2{
+
+.tle2 {
     text-align: start;
     color: var(--fc2);
 }
-.text-div{
+
+.text-div {
     margin-left: 2rem;
 }
-.ptext{
+
+.ptext {
     color: var(--fc);
 }
-.list-div{
-    margin:2rem;
+
+.list-div {
+    margin: 2rem;
 }
